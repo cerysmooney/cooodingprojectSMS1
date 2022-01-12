@@ -32,7 +32,7 @@ function draw() {
 function drawLineOfHexagons(yPosition, sideSize){
     for(let i = 0; i < numberOfHexagonsAcross; i++){
       let x = random(0,2); // random number between 0,2
-      push();
+      push(); // doesn't effect the rest of code
       translate(3*mySide*i, yPosition);
       if(x>1.8){ // if number is greater than 1.8, it will rotate the hexagon
         rotate(frameCount/-100.0); //rotating
