@@ -4,3 +4,13 @@ main {
     justify-content: center;
     align-items: center;
 }
+h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    word-spacing: 2%;
+}
