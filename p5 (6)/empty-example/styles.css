@@ -1,9 +1,11 @@
+/* centering code drawing */
 main {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* centering header and body paragraph with 2% line spacing */
 h1 {
     margin: 0;
     display: flex;
